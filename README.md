@@ -15,26 +15,34 @@ If no location metadata for an image is available, one way to infer the location
 
  The images below display some sample outputs of my finished project:
  
- ![Sydney_Harbour_Bridge](images/Sydney_Harbour_Bridge.jpeg)
- ![Trevi_Fountain](images/Trevi_Fountain.jpeg)
- ![Death_valley2](images/Death_valley2.jpeg)
- ![Gateway_of_India](images/Gateway_of_India.jpeg)
-
-<img src = "sample-result-plot.png">
+ ![Sydney_Harbour_Bridge](images/result2.png)
+ ![Trevi_Fountain](images/result4.png)
+ ![Death_valley2](images/result0.png)
+ ![Gateway_of_India](images/result1.png)
 
 ## Getting Started
 
-__Notice:__  please be careful with the versions; if you use newer versions of PyTorch and torchvision, there will probably be some errors. So it's recommended to install packages through the steps below:
+### Dataset
 
+The landmark images are a subset of the Google Landmarks Dataset v2. It can be downloaded using [this link](https://udacity-dlnfd.s3-us-west-1.amazonaws.com/datasets/landmark_images.zip)
+You can find license information for the full dataset [on Kaggel](https://www.kaggle.com/competitions/landmark-recognition-challenge/data)
+
+
+### Steps 
+
+__Notice:__  please be careful with the versions; if you use newer versions of PyTorch and torchvision, there will probably be some errors. So it's recommended to install packages through the steps below:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/salehsargolzaee/Landmark-Recognition   ```
+   git clone https://github.com/salehsargolzaee/Landmark-Recognition   
+   ```
 2. Change directory to repo folder
    ```sh
    cd path/to/repo/folder
    ```
-3. Create an environment with required packages
+3. Download the landmark dataset. Unzip the folder and place it in this project's home directory, at the location `data/landmark_images`.
+
+4. Create an environment with required packages
    ```sh
    conda env create -f environment.yaml
    conda activate landmark-tagging
@@ -44,12 +52,12 @@ __Notice:__  please be careful with the versions; if you use newer versions of P
    ```sh
    pip install -r requirements.txt
    ```
-4. Run `jupyter notebook`
+5. Run `jupyter notebook`
     
    ```sh
    jupyter notebook
    ```
-5. Open `landmark.ipynb`
+6. Open `landmark.ipynb`
 
 
 ## Contact
