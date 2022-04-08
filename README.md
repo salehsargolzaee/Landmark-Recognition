@@ -29,8 +29,7 @@ __Notice:__  please be careful with the versions; if you use newer versions of P
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/salehsargolzaee/Landmark-Tagging-For-Social-Media
-   ```
+   git clone https://github.com/salehsargolzaee/Landmark-Recognition   ```
 2. Change directory to repo folder
    ```sh
    cd path/to/repo/folder
@@ -57,7 +56,7 @@ __Notice:__  please be careful with the versions; if you use newer versions of P
 
 Saleh Sargolzaee - [LinkedIn](https://www.linkedin.com/in/saleh-sargolzaee) - salehsargolzaee@gmail.com
 
-Project Link: [https://github.com/salehsargolzaee/Bike-Sharing-Prediction](https://github.com/salehsargolzaee/Landmark-Tagging-For-Social-Media)
+Project Link: [https://github.com/salehsargolzaee/Landmark-Recognition](https://github.com/salehsargolzaee/Landmark-Recognition)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
