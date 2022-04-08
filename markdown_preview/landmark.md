@@ -39,7 +39,7 @@ In this step, we will create a CNN that classifies landmarks. We aim an accuracy
 
 Although 20% may seem low at first glance, it seems more reasonable after realizing how difficult of a problem this is. Many times, an image that is taken at a landmark captures a fairly mundane image of an animal or plant, like in the following picture.
 
-<img src="images/train/00.Haleakala_National_Park/084c2aa50d0a9249.jpg" alt="Bird in Haleakalā National Park" style="width: 400px;"/>
+<img src="../images/train/00.Haleakala_National_Park/084c2aa50d0a9249.jpg" alt="Bird in Haleakalā National Park" style="width: 400px;"/>
 
 Just by looking at that image alone, would you have been able to guess that it was taken at the Haleakalā National Park in Hawaii?
 
