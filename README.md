@@ -13,7 +13,7 @@ If no location metadata for an image is available, one way to infer the location
 
 ## Sample results
 
- The images below display some sample outputs of my finished project:
+ The images below display some sample outputs of my finished project (__on the left is top three probabilities__):
  
  ![Sydney_Harbour_Bridge](images/result2.png)
  ![Trevi_Fountain](images/result4.png)
